@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 定义插件安装目录
-plugin_dir="$ZSH/plugins/"
+plugin_dir="$ZSH/custom/plugins/"
 
 # 检测 requirements.txt 文件是否存在
 if [ ! -f "requirements.txt" ]; then
